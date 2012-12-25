@@ -1,0 +1,130 @@
+body {
+	background-color: #fff;
+}
+
+.leftBorder {
+	background: white none repeat scroll 0 0;
+}
+
+.rightBorder {
+	background: white none repeat scroll 0 0;
+}
+
+.mainTable {
+	height: inherit;
+}
+
+.main_layout_outer_panel {
+	height: inherit;
+}
+
+.main_layout_dock_panel {
+	height: inherit;
+}
+
+.main_layout_body_panel_container {
+	height: inherit;
+}
+
+.main_layout_body_panel {
+	height: inherit;
+}
+
+.main_layout_body_panel_container {
+	height: inherit;
+}
+
+.component_table_multi_rows .component_table_row_odd {
+	background-color: #ECECEC;
+}
+
+.component_table_multi_rows .component_table_row {
+	
+}
+
+.pulsanteria {
+	display: none;
+}
+
+/*------------------------------------------*/
+.component_table_title {
+	background: none;
+	color: black;
+	border-top: 1px solid #f90;
+	width: 880px;
+	_width: 900px;
+	margin: 0;
+	padding: 10;
+	margin: 0;
+}
+
+.component_custom_table_title {
+	background: none;
+	color: black;
+	border-top: 1px solid #f90;
+	width: 880px;
+	_width: 900px;
+	margin: 0;
+	padding: 10;
+	margin: 0;
+}
+
+.component_table_single_item {
+	width: 100%;
+	margin: 0 0 12px;
+	padding: 10;
+}
+
+.main_print_panel {
+	width: 900px;
+}
+
+.title1Pt,.title2Pt,.title3Pt,.title4Pt,.title5Pt,.title6Pt,.paragraphPt
+	{
+	margin: 0 0 12px;
+	padding: 10;
+}
+
+p.paragraphPt {
+	margin: 0 0 12px;
+	padding: 10;
+}
+
+.Totali_tabelle {
+	width: 880px !important;
+	_width: 900px;
+	margin: 0 0 12px;
+	padding: 10;
+}
+
+.totali{
+	margin: 4px 4px 4px 12px;
+	padding: 4px 12px;
+	text-align: right;
+	display: block;
+	width: 648px !important;
+	width: 672px;
+	font-size: 10px;
+	color:#666;
+	font-weight: bold;
+	background: #efefef;
+	border-bottom: 1px solid #999;
+}
+
+.card_iosi_card_nome {
+	top: 20px;
+	font-size:1.8em;
+	margin-left:250px;
+}
+
+.card_iosi_card_cognome {
+	top: 57px;
+	font-size:1.8em;
+	margin-left:250px;
+}
+
+.card_iosi_card_codice {
+	top: 93px;
+	font-size:1.8em;
+	margin-left:250px;
+}

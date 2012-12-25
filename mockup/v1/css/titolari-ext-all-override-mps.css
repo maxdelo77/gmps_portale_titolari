@@ -1,0 +1,103 @@
+/*
+* !!! TONALITA' ( bisogna usare solo questi tre colori!!! ):
+* 1)#ff9900
+* 2)#F5C83B
+* 3)#fde3c0
+* 
+*/ /*
+*  
+* All these css classes was commented on ext-all.css and redefinite here 
+* with some modifyes  
+* 
+*/ /*--------------------  X-WINDOW  ----------------------------*/
+	/* commented on ext-all.css and redefinite here without image */
+.x-window {
+	/*border: 1px solid #ff9900;*/
+	border: 1px solid #999;
+	background: #eeeeee;
+}
+
+.x-window-header {
+	color: #ff9900;
+}
+
+.x-window-header-text {
+	color: #ff9900;
+}
+
+.x-window-body {
+	background: white;
+}
+
+.x-window-tc {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.x-window-tr {
+	padding-right: 6px;
+}
+
+.x-window-mr {
+	padding-right: 6px;
+	zoom: 1;
+}
+
+.x-window-tl {
+	padding-left: 6px;
+	zoom: 1;
+	z-index: 1;
+	position: relative;
+}
+
+.x-window-ml {
+	padding-left: 6px;
+	zoom: 1;
+}
+
+.x-window-bl {
+	padding-left: 6px;
+	zoom: 1;
+}
+
+.x-window-br {
+	padding-right: 6px;
+	zoom: 1;
+}
+
+.x-window-bc {
+	zoom: 1;
+}
+
+.x-window-tl {
+	padding-left: 6px;
+	zoom: 1;
+	z-index: 1;
+	position: relative;
+}
+
+.x-window-mc {
+	border: 1px solid #fde3c0;
+	padding: 0;
+	margin: 0;
+	font: normal 11px tahoma, arial, helvetica, sans-serif;
+}
+
+.x-window-plain .x-window-body {
+	border-left: 1px solid #fde3c0;
+	border-top: 1px solid #fde3c0;
+	border-bottom: 1px solid #F5C83B;
+	border-right: 1px solid #F5C83B;
+}
+
+/*--------------------  FINE X-WINDOW  ----------------------------*/
+
+/*--------------------  FORM -------------------------*/
+.x-form-text {
+	/*border: 1px solid #f90;*/
+	border: 1px solid #999;
+}
+.x-form-textarea {
+	/*border: 1px solid #f90 !important;*/
+	border: 1px solid #999;
+}

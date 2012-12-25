@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+  "http://www.w3.org/TR/html4/loose.dtd">
+
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="DCS.dcsuri" content="Consulta il tuo conto carta" />
+		<meta name="WT.ti" content="Consulta il tuo conto carta" />
+		<title>Portale Titolari - Consulta il tuo conto carta</title>
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<!--link rel="stylesheet" type="text/css" href="js/ext/resources/css/ext-all.css"/ -->
+		<link rel="stylesheet" type="text/css" href="css/titolari-common.css"/>		
+		<link rel="stylesheet" type="text/css" href="css/titolari-mps.css" media="screen"/>
+		<!--link rel="stylesheet" type="text/css" href="css/titolari-ext-all-override-mps.css" media="screen"/-->
+		<!-- <link rel="stylesheet" type="text/css" href="pt/css/titolari-print.css" media="print" />-->
+
+		<!-- <link rel="stylesheet" type="text/css" href="pt/css/titolari-print.css" media="print" />-->
+
+		<link href="css/GwtExt.css" rel="stylesheet" />
+	</head>
+	<body class="ext-gecko" id="ext-gen6">
+
+		<!-- Pannello per il loading -->
+		<div style="display: none;" id="mainLoading">
+			<table id="mainLoadingTable" align="center">
+				<tbody>
+					<tr>
+						<td>
+							<img src="images/main_loading_orange.gif" />
+						</td>
+						<td valign="middle">
+							<b id="loadingMessage">Loading...</b>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<table class="mainTable" align="center" cellpadding="0" cellspacing="0">
+			<tbody>
+				<tr>
+					<td class="leftBorder" rowspan="2">
+						<div style="width: 8px;"/>
+					</td>
+					<td id="mainBody">
+						<table class="main_layout_outer_panel" cellspacing="0" cellpadding="0">
+							<colgroup>
+								<col/>
+							</colgroup>
+							<tbody>
+								<tr>
+									<td style="vertical-align: top;">
+										<table cellspacing="0" cellpadding="0" style="width: 100%;">
+											<tbody>
+												<tr>
+													<td width="" height="" align="center" style="vertical-align: top;">
+														<table class="main_layout_dock_panel" cellspacing="0" cellpadding="0">
+															<tbody>
+																<tr>
+																	<td width="" height="" align="left" style="vertical-align: top;" colspan="2">
+																		<!-- Begin Header -->
+																		<table class="main_layout_header_panel" cellspacing="0">
+																			<colgroup>
+																				<col/>
+																			</colgroup>
+																			<tbody>
+																				<tr>
+																					<td>
+																						<!-- Begin Prima riga con titolo del portale -->
+																						<table class="main_layout_header_panel pointer-cursor" id="ext-gen72">
+																							<colgroup>
+																								<col/>
+																							</colgroup>
+																							<tbody>
+																								<tr>
+																									<td>
+																										<div class="gwt-HTML" title="Home">
+																											<table width="100%" height="100%" border="0" id="ext-gen81">
+																												<tbody>
+																													<tr>
+																														<td>
+																															<img align="left" src="images/mps/logo.jpg"/>
+																														</td>
+																														<td>
+																															<img align="right" src="images/mps/header_new.jpg" id="ext-gen73"/>
+																														</td>
+																													</tr>
+																												</tbody>
+																											</table>
+																										</div>
+																									</td>
+																								</tr>
+																							</tbody>
+																						</table>
+																						<!--  End Prima riga con titolo del portale  -->																						
+																					</td>
+																				</tr>
+																				<tr>
+																					<td>
+																						<!-- Begin seconda riga con i menu di primo e di secondo livello -->
+																						<table class="menu_container" cellspacing="0" cellpadding="0">
+																							<tbody>
+																								<tr>
+																									<td align="left" style="vertical-align: top;">
+																										<!-- Begin Menu livello 1 -->
+																										<table class="menu_panel_lev_0" cellspacing="0" cellpadding="0">
+																											<tbody>
+																												<tr>
+																													<td id="ext-gen69" align="left" style="vertical-align: top;">
+																														<table cellspacing="0" cellpadding="0">
+																															<tbody>
+																																<tr>
+																																	<!-- Begin Colonne con le voci di menu -->
+																																	<td align="left" style="vertical-align: top;">
+																																		<div class="menu_lev_0">
+																																			<div class="menu_lev_0_link_inner_item_style">HOME</div>
+																																		</div>
+																																	</td>
+																																	<td align="left" style="vertical-align: top;">
+																																		<div id="ext-gen99" class="menu_lev_0 menu_lev_0-selected">
+																																			<div id="ext-gen117" class="menu_lev_0_link_inner_item_selected_style">
+CONTI
+																																				<br/>
+E MOVIMENTI
+																																			</div>
+																																		</div>
+																																	</td>
+																																	<td align="left" style="vertical-align: top;">
+																																		<div id="ext-gen114" class="menu_lev_0">
+																																			<div class="menu_lev_0_inner_item_style">
+ACQUISTI
+																																				<br/>
+E PAGAMENTI
+																																			</div>
+																																		</div>
+																																	</td>
+																																	<td align="left" style="vertical-align: top;">
+																																		<div id="ext-gen113" class="menu_lev_0">
+																																			<div class="menu_lev_0_inner_item_style">CARTE</div>
+																																		</div>
+																																	</td>
+																																	<td align="left" style="vertical-align: top;">
+																																		<div id="ext-gen78" class="menu_lev_0">
+																																			<div class="menu_lev_0_link_inner_item_style">
+																																			PROGRAMMA
+																																				<br/>
+																																			ioSi
+																																			</div>
+																																		</div>
+																																	</td>
+																																	<td align="left" style="vertical-align: top;">
+																																		<div id="ext-gen79" class="menu_lev_0">
+																																			<div class="menu_lev_0_inner_item_style">SICUREZZA</div>
+																																		</div>
+																																	</td>
+																																	<td align="left" style="vertical-align: top;">
+																																		<div class="menu_lev_0">
+																																			<div class="menu_lev_0_inner_item_style">ASSISTENZA</div>
+																																		</div>
+																																	</td>
+																																	<td align="left" style="vertical-align: top;">
+																																		<div class="hidden_menu_item">
+																																			<div class="menu_lev_0_inner_item_style">Modifica dati</div>
+																																		</div>
+																																	</td>
+																																	<!--  End Colonne con le voci di menu  -->
+																																</tr>
+																															</tbody>
+																														</table>
+																													</td>
+																												</tr>
+																											</tbody>
+																										</table>
+																										<!--  End Menu livello 1  -->
+																									</td>																								
+																								</tr>
+																								<tr>
+																									<!-- Begin Menu livello 2 -->
+																									<td align="left" style="vertical-align: top;">
+																										<table class="menu_panel_lev_1" cellspacing="0" cellpadding="0">
+																											<tbody>
+																												<tr>
+																													<td id="ext-gen132" align="left" style="vertical-align: top;">
+																														<table cellspacing="0" cellpadding="0">
+																															<tbody>
+																																<tr>
+																																	<!-- Begin Colonne con le voci di menu -->
+																																	<td align="left" style="vertical-align: top;">
+																																		<div class="menu_lev_1 menu_lev_1-link menu_lev_1-linkselected">Consulta conto Carta</div>
+																																	</td>
+																																	<td align="left" style="vertical-align: top;">
+																																		<div id="ext-gen118" class="menu_lev_1 menu_lev_1-link">E-mail alert</div>
+																																	</td>
+																																	<!--  End Colonne con le voci di menu  -->
+																																</tr>
+																															</tbody>
+																														</table>
+																													</td>
+																												</tr>
+																											</tbody>
+																										</table>
+																									</td>																
+																									<!--  End Menu livello 2  -->
+																								</tr>
+																							</tbody>
+																						</table>
+																						<!--  End seconda riga con i menu di primo e di secondo livello  -->
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>																		
+																		<!--  End Header -->
+																	</td>
+																</tr>
+																<tr>
+																	<td width="" height="" align="left" style="vertical-align: top;">
+																													<!-- Begin Main Content -->
+																		<table class="main_layout_body_panel" cellspacing="0" cellpadding="0">
+																			<colgroup>
+																				<col/>
+																			</colgroup>
+																			<tbody>
+																				<tr>
+																					<td>
+																						<!-- Begin Container Menu di terzo livello -->
+
+																						<!-- End Container Menu di terzo livello -->
+																					</td>
+																				</tr>
+																				<tr>
+																					<td id="operativeArea">
+																						<!--  Begin Content -->
+																						<!--  End Content -->
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		<!--  End Main Content -->						</td>
+																	<td id="ext-gen67" width="" height="" align="right" style="vertical-align: top;" rowspan="1">
+																		<!-- Begin Shoulder -->
+																		<table class="main_layout_shoulder_panel" cellspacing="0" cellpadding="0">
+																			<colgroup>
+																				<col/>
+																			</colgroup>
+																			<tbody>
+																				<tr>													
+																					<td>
+																						<!-- Begin contenuto dello shoulder -->
+																						<table cellspacing="0" cellpadding="0">
+																							<tbody>
+																								<tr>
+																									<td align="left" style="vertical-align: top;">
+																										<table cellspacing="0" cellpadding="0" border="0">
+																											<colgroup>
+																												<col/>
+																											</colgroup>
+																											<tbody>
+																												<!-- Begin Ogni riga è un elemento dello shoulder -->
+																												<tr>
+																													<td id="ext-gen82">
+																														<!-- Begin Shoulder benvenuto -->
+																														<table class="shoulder_basic_login" cellspacing="0" cellpadding="0" border="0">
+																															<colgroup>
+																																<col/>
+																															</colgroup>
+																															<tbody>
+																																<tr>
+																																	<td id="ext-gen82">
+																																		<table id="ext-gen131" border="0" style="width: 100%;">
+																																			<tbody id="ext-gen128">
+																																				<tr>
+																																					<td id="ext-gen130">
+																																						<div id="ext-gen129" class="shoulder_basic_login_saluto">Buongiorno,</div>
+																																					</td>
+																																					<td align="right">
+																																						<table class="shoulder_basic_login_button" cellspacing="0">
+																																							<colgroup>
+																																								<col/>
+																																							</colgroup>
+																																							<tbody>
+																																								<tr>
+																																									<td class="btn-sx">
+																																										<div class="gwt-HTML"/>
+																																									</td>
+																																									<td class="btn-mid" align="center" style="vertical-align: middle;">
+																																										<div class="gwt-HTML">Logout</div>
+																																									</td>
+																																									<td class="btn-dx">
+																																										<div class="gwt-HTML"/>
+																																									</td>
+																																								</tr>
+																																							</tbody>
+																																						</table>
+																																					</td>
+																																				</tr>
+																																				<tr>
+																																					<td id="ext-gen126" colspan="2">
+																																						<div id="ext-gen127" class="shoulder_basic_login_nome">NOME COGNOME</div>
+																																					</td>
+																																					<td id="ext-gen126" colspan="2">
+																																						<div id="ext-gen127" class="shoulder_basic_login_nome"></div>
+																																					</td>																																					
+																																				</tr>
+																																			</tbody>
+																																		</table>
+																																	</td>
+																																</tr>
+																															</tbody>
+																														</table>
+																														<!--  End Shoulder benvenuto  -->
+																													</td>																												
+																												</tr>
+																												<tr>
+																													<td>
+																														<!-- Begin Shoulder Dettagli -->
+																														<table class="shoulder_basic_in_uso" cellspacing="0" cellpadding="0" border="0">
+																															<colgroup>
+																																<col/>
+																															</colgroup>
+																															<tbody>
+																																<tr>
+																																	<td id="ext-gen84" align="left" style="vertical-align: top;">
+																																		<!-- Begin Content Shoulder Dettagli -->
+																																		<table style="width: 90%; height: 100%;" border="0" cellpadding="0" cellspacing="0">
+																																			<colgroup>
+																																				<col/>
+																																			</colgroup>
+																																			<tbody>
+																																				<tr>
+																																					<td colspan="2">
+																																						<div class="shoulder_basic_in_uso_row">Stai consultando la tua CartaSi numero:</div>
+																																					</td>
+																																				</tr>
+																																				<tr>
+																																					<td style="vertical-align: middle;" colspan="2" width="60%">
+																																						<table class="shoulder_basic_in_uso_combo" border="0">
+																																							<colgroup>
+																																								<col/>
+																																							</colgroup>
+																																							<tbody>
+																																								<tr>
+																																									<td>
+																																										<div style="width: 240px;" id="ext-gen14" class="x-form-field-wrap">
+																																											<input value="**** **** **** 6781" style="width: 223px;" readonly="true" class=" x-form-text x-form-field x-combo-noedit" size="24" autocomplete="off" id="ext-gen10" name="ext-gen10" type="text" />
+																																											<img id="ext-gen15" src="images/clear.gif" class="x-form-trigger x-form-arrow-trigger"/>
+																																										</div>
+																																									</td>
+																																								</tr>
+																																							</tbody>
+																																						</table>
+																																					</td>
+																																					<td style="vertical-align: middle;" align="right" width="40%"/>
+																																				</tr>
+																																				<tr>
+																																					<td style="vertical-align: top;" width="60%">
+																																						<div class="shoulder_basic_in_uso_row">Ultimo accesso </div>
+																																					</td>
+																																					<td id="ext-gen85" style="vertical-align: top;" align="right" width="40%">
+																																						<div class="shoulder_basic_in_uso_row">
+																																							<font color="gray">08/02/2012</font>
+																																						</div>
+																																					</td>
+																																				</tr>
+																																				<tr>
+																																					<td id="ext-gen88" style="vertical-align: top;" width="60%">
+																																						<div class="shoulder_basic_in_uso_row">Limite utilizzo </div>
+																																					</td>
+																																					<td id="ext-gen87" style="vertical-align: top;" align="right" width="40%">
+																																						<div class="shoulder_basic_in_uso_row">
+																																							<font id="ext-gen86" color="gray">1.500,00</font>
+																																						</div>
+																																					</td>
+																																				</tr>
+																																				<tr>
+																																					<td id="ext-gen90" style="vertical-align: top;" width="60%">
+																																						<div id="ext-gen89" class="shoulder_basic_in_uso_row">Disponibilità residua </div>
+																																					</td>
+																																					<td style="vertical-align: top;" align="right" width="40%">
+																																						<div class="shoulder_basic_in_uso_row">
+																																							<font color="gray">1.476,00</font>
+																																						</div>
+																																					</td>
+																																				</tr>
+																																				<tr>
+																																					<td colspan="2">
+																																						<div class="shoulder_basic_in_uso_row">Rilasciata da  &nbsp;&nbsp;&nbsp; <font color="gray">CARTASI SPA</font>
+																																						</div>
+																																					</td>
+																																				</tr>
+																																			</tbody>
+																																		</table>																																		
+																																		<!--  End Content Shoulder Dettagli  -->				
+																																	</td>
+																																</tr>
+																															</tbody>
+																														</table>
+																														<!-- End Shoulder Dettagli -->																														
+																													</td>
+																												</tr>
+																												<tr>
+																													<td>
+																														<!-- Begin Shoulder Iscrivi altre carte -->
+																														<table class="shoulder_basic_modifica" cellspacing="0" cellpadding="0" border="0">
+																															<colgroup>
+																																<col/>
+																															</colgroup>
+																															<tbody>
+																																<tr>
+																																	<td style="vertical-align: top;" align="left">
+																																		<!-- Begin Content Shoulder Iscrivi altre carte -->	
+																																		<table style="width: 100%;" border="0" cellpadding="0" cellspacing="0">
+																																			<colgroup>
+																																				<col/>
+																																			</colgroup>
+																																			<tbody>
+																																				<tr>
+																																					<td colspan="2">
+																																						<div class="shoulder_basic_aggiungi2">Hai altre CartaSi? Iscrivile al Portale!</div>
+																																					</td>
+																																					<td>&nbsp;</td>
+																																					<td rowspan="2" height="40px" width="30px">
+																																						<table title="Aggiungi nuova CartaSi" class="pointer-cursor" style="width: 100%; height: 100%;" border="0">
+																																							<colgroup>
+																																								<col/>
+																																							</colgroup>
+																																							<tbody>
+																																								<tr>
+																																									<td>
+																																										<div class="gwt-HTML">
+																																											<img src="images/space_5x5.gif"/>
+																																										</div>
+																																									</td>
+																																								</tr>
+																																							</tbody>
+																																						</table>
+																																					</td>
+																																				</tr>
+																																				<tr>
+																																					<td width="160px">
+																																						<div class="shoulder_basic_aggiungi3">(Inserisci le ultime 4 cifre)</div>
+																																					</td>
+																																					<td>
+																																						<input maxlength="4" style="width: 50px; height: 17px;" class=" x-form-text x-form-field shoulder_basic_aggiungi_field" size="20" autocomplete="off" id="ext-gen12" name="ext-gen12" type="text"/>
+																																					</td>
+																																				</tr>
+																																			</tbody>
+																																		</table>																																		
+																																		<!--  End Content Shoulder Iscrivi altre carte  -->				
+																																	</td>
+																																</tr>
+																															</tbody>
+																														</table>
+																														<!-- End Shoulder Iscrivi altre carte -->																														
+																													</td>																												
+																												</tr>
+																												<tr>
+																													<!-- Begin Shoulder Modifica Dati -->
+																													<table cellspacing="0" cellpadding="0" border="0">
+																														<colgroup>
+																															<col/>
+																														</colgroup>
+																														<tbody>
+																															<tr>
+																																<td style="vertical-align: top;" align="left">
+																																	<!-- Begin Content Shoulder Modifica Dati -->
+																																	<div title="Modifica dati" class="shoulder_basic_accedi pointer-cursor">Modifica dati</div>																																	
+																																	<!--  End Content Shoulder Modifica Dati  -->				
+																																</td>
+																															</tr>
+																														</tbody>
+																													</table>
+																													<!-- End Shoulder Modifica Dati -->																												
+																												</tr>
+																												<tr>
+																													<!-- Begin Shoulder  Newsletter online -->
+																													<table cellspacing="0" cellpadding="0" border="0">
+																														<colgroup>
+																															<col/>
+																														</colgroup>
+																														<tbody>
+																															<tr>
+																																<td style="vertical-align: top;" align="left">
+																																	<!-- Begin Content Shoulder  Newsletter online -->
+																																	<div title="Accedi alla newsletter on-line" class="shoulder_basic_accedi pointer-cursor">Accedi alla newsletter on-line</div>																																	
+																																	<!--  End Content Shoulder  Newsletter online  -->				
+																																</td>
+																															</tr>
+																														</tbody>
+																													</table>
+																													<!-- End Shoulder Newsletter online -->																										
+																												</tr>
+																												<!--  End Ogni riga è un elemento dello shoulder  -->
+																											</tbody>
+																										</table>
+																									</td>
+																								</tr>
+																							</tbody>
+																						</table>						-														
+																						<!--  End contenuto dello shoulder  -->
+																					</td>
+																				</tr>
+																				<tr>
+																					<td>
+																						<div class="shoulder_basic_ad"/>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>										
+																		<!--  End Shoulder -->																	
+																	</td>
+																</tr>
+																<tr>
+																	<td width="" height="" align="left" style="vertical-align: top;" colspan="2">
+																		<!-- Begin Footer -->
+																		<div class="main_layout_footer_panel">
+																			<table cellspacing="0" cellpadding="0" style="width: 100%;">
+																				<tbody>
+																					<tr>
+																						<td align="left" style="vertical-align: top;">
+																							<div class="gwt-HTML footer_text">
+																								<span class="footer_d">P. IVA 04107060966 - © 2012 CartaSi S.p.A.</span>
+																								<span class="footer_c">
+																									<a href="#" target="_blank">Trasparenza</a>
+																									<a href="#" target="_blank">Privacy</a>
+																								</span>
+																							</div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</div>																		
+																		<!--  End Footer -->
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>                    
+					</td>
+					<td class="rightBorder" rowspan="2">
+						<div style="width: 8px;"/>
+					</td>			
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

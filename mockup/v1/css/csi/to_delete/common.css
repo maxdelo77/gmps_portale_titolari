@@ -1,0 +1,236 @@
+/* Contiene la porzione di css che è identico tra la versione nuova e quella vecchia */
+
+p.paragraphPT {margin: 1em;}
+
+table.form_component_row {border: 1px solid #fff; padding: 0; margin: 0;} /* questa dichiarazione modifica le le tabelle che contengono form */
+table.form_component_row input.x-form-field {border: 1px solid #ddd;} /* campi di input all'interno delle tabelle form component*/
+
+/* loyalty IOSI */
+div.partner {width:320px;height:260px;margin:8px;float:left; position: relative; border-bottom: 1px solid #ddd} /* versione tableless */
+div.partner p.testoNormale {font-size:10px;padding:0 .4em .4em 0;}
+div.partner li {font-size:10px;padding:0 .4em .4em 0;}
+div.partner p.linkFunzione a.frecciaBack {position:absolute;right:.4em;bottom:.2em;margin:12px 0 0 12px;}
+div.partner img {padding:0; float: right; margin: 0 0 0 14px;}
+
+div.partnerVip p.testoNormale {font-size:10px;padding:0 .4em .4em 0;}
+div.partnerVip li {font-size:10px;padding:0 .4em .4em 0;}
+div.partnerVip p.linkFunzione a.frecciaBack {position:absolute;right:.4em;bottom:.2em;margin:12px 0 0 12px;}
+div.partnerVip img {padding:0; float: right; margin: 0 0 0 0}
+div.partnerVip td{margin:0 0 0 0;padding:0 0 0 0;}
+
+td.lineaVipTopSx {
+	background-image:url('../../images/header/iosi/altosx.jpg');
+    height: 28px;
+    table-layout: fixed;
+    width: 28px;
+}
+
+td.lineaVipTop {
+background-image:url('../../images/header/iosi/alto.jpg');
+background-repeat:repeat-x;
+background-position:top;
+}
+
+td.lineaVipTopDx {
+	background-image:url('../../images/header/iosi/altodx.jpg');
+    height: 28px;
+    table-layout: fixed;
+    width: 28px;
+}
+
+td.lineaVipDx {
+background-image:url('../../images/header/iosi/dx.jpg');
+background-repeat:repeat-y;
+background-position:top right;
+}
+td.lineaVipBottom {
+background-image:url('../../images/header/iosi/basso.jpg');
+background-repeat:repeat-x;
+background-position:bottom right;
+}
+
+td.lineaVipBottomSx {
+	background-image:url('../../images/header/iosi/bassosx.jpg');
+    height: 28px;
+    table-layout: fixed;
+    width: 28px;
+}
+
+td.lineaVipBottomDx {
+	background-image:url('../../images/header/iosi/bassodx.jpg');
+    height: 28px;
+    table-layout: fixed;
+    width: 28px;
+}
+
+td.lineaVipSx {
+background-image:url('../../images/header/iosi/sx.jpg');
+background-repeat:repeat-y;
+background-position:top left;
+}
+
+h4.nomePartnerVip {font-weight:bold;font-size:12px;margin:0 0 8px 0; padding: 4px 0 4px 4px; color: #000}
+
+div.loyalty h4.titoloInternoGadget {margin:0 0 1em 0;}
+div.dettaglioIOSI,
+div.codiceIOSI {width:46%;float:left;}
+div.dettaglioIOSI {margin-right:3%}
+div.dettaglioIOSI table {width:100%;}
+div.dettaglioIOSI th {text-align:left;}
+div.dettaglioIOSI th.grasssetto {font-weight:bold;}
+div.dettaglioIOSI td {text-align:right;}
+div.richiestaPremio {margin:0 auto;text-align:center;padding:.6em;}
+div.richiestaPremio ul.listaOrizzontale li {padding:0 18em;}
+
+.popUp {margin:.4em;padding:0;}
+.legendaPunti {width:362px;margin:0;padding:0;}
+.legendaPunti h4 {padding:1em 0 0 1em;margin:0;font-size:10px;}
+.legendaPunti p {padding:0 0 0 1em;}
+.legendaPunti p.linkFunzione {padding:0 1em 0 0;}
+.popUp h3 {height:16px;font-size:10px;margin:0;padding:0 0 0 1em;}	
+p.imgRight {float:right; margin:0 12px 2px 12px !important; margin:12px 6px 12px 12px;}
+
+div.sicurezzaPartner {width: 674px; margin: 24px 0 0 12px; }
+
+.component_table_title .title3Pt {margin: 0; padding: 0; color:#fff;}
+
+ul.pulsanteria {margin:0 0 0 6px; list-style:none; text-align: center;padding-bottom: 24px;}
+
+ul.pulsanteria li {
+      float:left;
+      margin:0 4px;
+      padding:0 0 0 9px;
+}
+
+ul.pulsanteria li a {
+      float:left;
+      display:block;
+      padding:1px 15px 4px 6px;
+      text-decoration:none;
+      font-weight:bold;
+      color:#fff;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+ul.pulsanteria li a {float:none;}
+/* End IE5-Mac hack */
+
+#header a:hover {color:#333;}
+
+
+.tbl_rictel {margin: 0; padding: 0;}
+.tbl_rictel_legenda {margin: 0 0 0 12px; padding: 0;}
+.rictelefoniche_name, 
+.rictelefoniche_numero,
+.rictelefoniche_elenco,
+ul.linkSMS {list-style:none; color:#999; }
+
+span.cellaLunga { display: block; width: 666px;}
+
+/***********************************************
+max: ho rimosso il bordo colorato da qui perche' sovrascriveva il bordo della carta black
+************************************************/
+
+.dashboard-table-banner h2,.dashboard-table-banner h3 {
+	margin: 0; 
+	padding: 12px 0;
+}
+
+.dashboard-table-stato-servizi { 
+	width: 673px;
+	margin-left: 1px;
+}
+
+.dashboard-table-stato-servizi-header-center {
+	margin-left: -1px;
+}
+.dashboard-table-stato-servizi-gray-line td u,
+.dashboard-table-stato-servizi-white-line td u {
+	text-decoration: none;
+}
+
+.Intestazioni_tabella {
+	font-weight: bold; 
+	color: #666; 
+	text-align: left;
+}
+.Totali_tabelle {
+	display:block; 
+	width: 656px !important; 
+	width: 674px;
+	padding: 6px 12px 6px 6px;
+	background: #eee; 
+	color: #333; 
+	text-align: right;
+	margin: 6px 0 12px 12px; 
+	font-weight: bold;
+}
+
+ul.codizEC {list-style-position: outside !important; margin-left: 12px;}
+ul.codizEC li.listPT {padding: 2px;}
+
+.Alert_nessun_ec {
+display:block; width: 656px !important; width: 674px;
+padding: 6px 12px 6px 6px;
+background: #eee; color: #333; text-align: center;
+margin: 16px 0 12px 12px; font-weight: bold;}
+
+/* Ricariche telefoniche */
+.component_table_cell_elem .rictelefoniche_elenco_mainkey_configitem_value {
+	background: blue; 
+	border: 2px dotted red; 
+	display: block; 
+	width: 300px;
+}
+
+.component_table_with_warning {border-bottom: 1px solid #fff;}
+.iosi_invitocommento {border-bottom: 1px solid #fff;}
+
+table.submit_table td.btn-mid div.gwt-HTML {text-align: center;} /* pulsanti centrali */
+
+div#regolamento_hidden p.paragraphPT {margin: .21em;}
+
+.component_table_cell_elem input.x-form-text {border: 1px solid silver; background: #fff}
+.cc_estratto_conto_motivorevoca .x-form-textarea {background: #fff;}
+.cc_estratto_conto_motivorevoca  {border-bottom: 1px solid #fff;}
+.cc_estratto_conto_htmlrevoca_mainkey_configitem_value {border-bottom: 1px solid #fff;}
+.cc_estratto_conto_htmlrevoca_mainkey_configitem_value p.paragraphPT{margin: 1em 0}
+
+/* Ricarica carta prepagata */
+.servizi_new_ricarica_pan {border-bottom: 1px solid #fff;} /* pan prepagata */ 
+
+/* E-mail alert */
+.servizi_email_note {border-bottom: 1px solid #fff;}
+.servizi_email_htmlsnippet {border-bottom: 1px solid #fff;}
+.servizi_email_label_email {border-bottom: 1px dotted #eee;}
+.servizi_email_label_email td div {/* casella email utente */}
+
+td .component_table_cell_label {padding-left:8px}
+
+.IndirizzoEmail {font-weight: bold; color: #333;}
+table.form_component_row input .x-form-checkbox .x-form-field .component_table_cell_elem,
+.x-form-checkbox {border: none; background: #fff;}
+.modifica_reg_form_cvv2 .component_table_cell_label span.formStorti {margin-left: 12px;}
+
+td.hppt {width: 180px;vertical-align: top;}
+td.hppt img {padding: 0 12px; margin:12px 12px 0px 12px;}
+
+/* servizi SMS */
+.component_table_with_warning p,
+.component_table_with_warning li.listPT {padding: 0; margin: 0 0 .2em 1em;}
+.component_table_with_warning ul {padding: 0; margin:1em 0;}
+
+/* Servizi SMS - adesione ai servizi dispositivi */
+.login_form_servizidispositivi_mainkey_configitem_value h2.title2Pt {margin: 0 0 12px 0;}
+p.imgLeft {width: 96px; margin: 0 12px 0 0; float: left; display: block;}
+
+/* formattazione campi input in caso di digitazione errata */
+.x-form-invalid, textarea.x-form-invalid, .component_table_cell_elem input.x-form-invalid {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#ff0;
+	border:2px solid #f00;
+}
+
+

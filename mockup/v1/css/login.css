@@ -1,0 +1,134 @@
+/* Version 1.0 */
+
+.mainBody {
+	text-align: center;
+	background-color: #fff;
+}
+
+.loginMainTable {
+	width: 300px;
+	text-align: left;
+	border: 1px solid #ff9900;
+}
+
+.portletbase {
+	margin-top: 0.6em;
+	margin-right: 0;
+	margin-bottom: .6em;
+	margin-left: 0;
+	padding: 0;
+}
+
+.portletTitle {
+	
+}
+
+.portletShoulder {
+	margin: 0;
+	padding: .6em;
+	color: #666;
+	background-color: #EAECED;
+}
+
+.portletShoulder a img {
+	border-style: none;
+}
+
+.platportletHeaderBg {
+	color: #666666;
+	background: #ff9900;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 0.2em 0;
+	vertical-align: middle;
+	padding-left: 16px;
+}
+
+.platportletheaderbg.customapptext.portlettitle {
+	font-weight: bold;
+	font-size: 10px;
+	vertical-align: middle;
+	padding-top: .2em;
+	padding-right: 0;
+	padding-bottom: .2em;
+	padding-left: 0;
+}
+
+/* icone apri-chiudi gadget */
+td.platportletheaderbg.customapptext.portletbuttons span
+	a.portletcollapsebutton {
+	width: 12px;
+	height: 14px;
+	display: block ! important;
+	display: inline;
+	margin-top: -12px ! important;
+	margin-top: 1px;
+}
+
+td.platportletheaderbg.customapptext.portletbuttons span a.portletexpandbutton
+	{
+	width: 12px;
+	height: 14px;
+	display: block ! important;
+	display: inline;
+	margin-top: -12px ! important;
+	margin-top: 1px;
+}
+
+div.customapptext p input {
+	text-align: center;
+	padding: 0;
+	margin-left: .1em;
+	width: 2.4em;
+}
+
+.linknormale {
+	
+}
+
+.userDataTable {
+	width: 95%;
+}
+
+.frecciaback,a.frecciaback,a.frecciaback:link,a.frecciaback:visited,a.frecciaback:active
+	{
+	background-image: url(../images/black/freccia_scura.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-top: 4px;
+	padding-right: 0;
+	padding-bottom: 4px;
+	padding-left: 0;
+	padding-left: 1em;
+}
+
+a.frecciaback:hover {
+	background-image: url(../images/black/freccia_chiara.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.login {
+	width: 45%;
+}
+
+.loginCheck {
+	width: 100%;
+	font-weight: bold;
+	font-size: 10px;
+	vertical-align: middle;
+	padding-top: .2em;
+	padding-right: 0;
+	padding-bottom: .2em;
+	padding-left: 0;
+	
+}
+
+.login input {
+	width: 10em;
+}
+.loginBody {
+	text-align: center;
+	background-color: #fff;
+	height: 100%;
+}

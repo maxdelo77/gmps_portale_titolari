@@ -1,0 +1,166 @@
+BODY {
+	COLOR: Black;
+	FONT-FAMILY: Verdana,arial,helvetica,sans-serif;
+	FONT-SIZE: 8pt;
+	TEXT-DECORATION: none;
+	background-color : white;
+}
+TD {
+	COLOR: Black;
+	FONT-FAMILY: Verdana,arial,helvetica,sans-serif;
+	FONT-SIZE: 10pt;
+	TEXT-DECORATION: none;
+	color : #336666;
+}
+A {
+	text-decoration: none; 
+	font-size: 11px; font-size:12px; 
+	font-family:verdana; 
+	font-weight:bold; 
+	color : #336666;
+
+}
+.sinistra {
+	font : Verdana;
+	FONT-SIZE: 10pt;
+	color : #336666;
+}
+.testo{
+	font :Verdana;
+	FONT-SIZE: 10pt;
+	color : #333333;
+}
+.testoaster{
+	font :Verdana;
+	FONT-SIZE: 8pt;
+	color : #336666;
+}
+.passi2 {
+	font : bold Verdana;
+	FONT-SIZE: 8pt;
+	color : white;
+}
+.testo1:link{
+	font :Verdana;
+	FONT-SIZE: 10pt;
+	text-decoration:none;
+	color : Black;
+	font-weight:normal;
+}
+.testo1:visited{
+	font:Verdana;
+	FONT-SIZE: 10pt;
+	text-decoration:none;
+	color : #336666;
+	font-weight:normal;
+}
+.testo1:hover{
+	font:Verdana;
+	FONT-SIZE: 10pt;
+	text-decoration:none;
+	color : #336666;
+	font-weight:normal;
+}
+.applicazione{
+	font-family: italic Verdana;
+	FONT-SIZE: 10pt;
+	color : #336666;
+}
+	
+.titolo {
+	font : bold Verdana;
+	FONT-SIZE: 10pt;
+	color : #336666;
+}
+.titolo1 {
+	font : bold Verdana,arial,helvetica,sans-serif;
+	FONT-SIZE: 9pt;
+	color : #336666 ;
+}
+.titolosol {
+	FONT-FAMILY: Verdana,arial,helvetica,sans-serif;
+	FONT-SIZE: 12pt;
+	color : #333333;
+}
+.elenco:link {
+	COLOR: #336666;
+	TEXT-DECORATION: none;
+	font-weight : bold;
+}
+.elenco:visited {
+	COLOR: #336666;
+	TEXT-DECORATION: none;
+	font-weight : bold;
+}
+.elenco:hover {
+	COLOR: #669999;
+	TEXT-DECORATION: none;
+	font-weight : bold;
+}
+.ricerca:link {
+	font : bold Verdana;
+	FONT-SIZE: 8pt;
+	color : white;
+}  
+.ricerca:visited {
+	font : bold Verdana;
+	FONT-SIZE: 8pt;
+	color : white;
+}    
+.ricerca:hover {
+	font : bold Verdana;
+	FONT-SIZE: 8pt;
+	color : White;
+}
+.passi {
+	font : bold Verdana;
+	FONT-SIZE: 8pt;
+	color : white;
+}  
+.elenco2:link {
+	COLOR: #336666;
+	FONT-SIZE: 8pt;
+	TEXT-DECORATION: none;
+	font : bold Verdana;
+}
+.elenco2:visited {
+	COLOR: #336666;
+	FONT-SIZE: 8pt;
+	TEXT-DECORATION: none;
+	font : bold Verdana;
+}
+.titolopopup {
+	font-family :  Verdana,arial,helvetica,sans-serif;
+	FONT-SIZE: 8pt;
+	color : #336666 ;
+	TEXT-DECORATION: none;
+	font-weight : bold;
+	
+}
+.titolopopup2 {
+	font-family :  Verdana,arial,helvetica,sans-serif;
+	FONT-SIZE: 8pt;
+	color : #CD0000 ;
+	TEXT-DECORATION: none;
+	font-weight : bold;
+	
+}
+.elenco2:hover {
+	COLOR: #669999;
+	FONT-SIZE: 8pt;
+	TEXT-DECORATION: NONE;
+	font : bold Verdana;
+}
+.colore{
+	color: #336666;
+}
+H1 {font-family:verdana;FONT-SIZE: 10pt;color : #333333;font-weight:normal;}
+H2 {font-family:verdana;FONT-SIZE: 8pt;color : #336666;font-weight:normal;}
+H3 {font-family:verdana;FONT-SIZE: 10pt;color : #336666;font-weight:bold}
+H4 {font-family:verdana;FONT-SIZE: 14px;color : #333333;font-weight:bold;}
+H5 {font-family:verdana;FONT-SIZE: 11pt;color : #336666;font-weight:bold;}
+H6 {font-family:verdana;FONT-SIZE: 9px;color : #333333;font-weight:normal;}
+.testo2 {font-family:verdana;FONT-SIZE: 10pt;color : #333333;font-weight:bold;}
+.titoloelenco {font-family: Verdana; font-size: 10pt;	color : black; text-decoration:none;font-weight:normal;}
+.titolobottone {font-family: Verdana; font-size:10pt;	color :#336666; text-decoration:none;font-weight:bold;}
+ 
